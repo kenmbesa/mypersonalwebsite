@@ -1,0 +1,286 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+/* Styling the logo and mobile burger icon */
+.mobile-top-bar {
+  background: #2effdd;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: -1em;
+}
+
+.mobile-top-bar img {
+  width: 80%;
+  margin-top: 1em;
+  margin-left: 0.5em;
+  padding-bottom: 0.8em;
+}
+
+.mobile-top-bar a img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  margin-top: 1.7em;
+}
+/* End of the logo and mobile burger icon */
+
+/* Styling the collapsible nav menu */
+nav {
+  background: #2effdd;
+}
+
+nav #mobileMenu {
+  display: none;
+  list-style: none;
+  margin-left: -3em;
+}
+
+nav ul li {
+  padding-bottom: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+nav ul li:hover {
+  background: -webkit-linear-gradient(right, #2ed1ff, #2effdd);
+}
+
+nav ul li a {
+  font-weight: 600;
+  color: #404040;
+  text-decoration: none;
+  padding-left: 1.5em;
+}
+/* End of the collapsible nav menu */
+
+/* Styling the hero section */
+article {
+  width: 100%;
+}
+
+article img {
+  width: 100%;
+}
+
+article .hero-section {
+  background: -webkit-linear-gradient(top, #2effdd, #2ed1ff);
+  padding: 2em 2em 3em 2em;
+  text-align: center;
+  margin-top: -1em;
+}
+
+article .hero-section h1 {
+  color: #fff;
+  font-size: 3em;
+  text-shadow: 1px 1px 2px #2ed1ff;
+}
+
+article .hero-section p {
+  line-height: 1.5em;
+}
+
+article .hero-section button {
+  background: #f15a24;
+  border: none;
+  border-radius: 20px;
+  padding: 0.8em 2em;
+  color: white;
+  margin-top: 1em;
+}
+/* End of the hero section */
+
+/* Styling the services section */
+main {
+  text-align: center;
+  color: #404040;
+  padding: 0 1em 2em 1em;
+}
+
+main .service-item {
+  border: 2px solid rgb(244, 244, 244);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 2em 1.5em;
+  margin-bottom: 1em;
+}
+
+main h2 {
+  font-size: 2.5em;
+}
+
+main h3 {
+  font-size: 1.5em;
+}
+
+main img {
+  margin-bottom: 1em;
+}
+
+main p {
+  line-height: 1.5em;
+}
+
+main button {
+  background: #f15a24;
+  border: none;
+  border-radius: 70px;
+  padding: 0.8em 2em;
+  color: white;
+  margin-top: 1em;
+}
+/* End of the services section */
+
+/* Styling 'Why Choose Me' section */
+.why-me {
+  text-align: center;
+  color: #404040;
+  padding: 0 1em 2em 1em;
+}
+
+.why-me h2 {
+  font-size: 2.5em;
+}
+
+.why-me h3 {
+  font-size: 1.5em;
+}
+
+.why-me .all-reasons {
+  border: 2px solid rgb(244, 244, 244);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0 1em 0 1em;
+}
+
+.why-me .all-reasons .reason {
+  border: 2px solid rgb(244, 244, 244);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.why-me p {
+  line-height: 1.5em;
+}
+/* End of the 'Why Choose Me' section */
+
+/* Styling testimonials section */
+.testimonials {
+  text-align: center;
+  color: #404040;
+  padding: 0 1em 2em 1em;
+}
+
+.testimonials h2 {
+  font-size: 2.5em;
+}
+
+.testimonials p {
+  line-height: 1.5em;
+}
+
+.testimonials .all-clients {
+  border: 2px solid rgb(244, 244, 244);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 1em 1em 0 1em;
+}
+
+.testimonials .all-clients .client {
+  border: 2px solid rgb(244, 244, 244);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+/* End of the testimonials section */
+
+/* Styling the quote section */
+.my-quote {
+  text-align: center;
+  color: #404040;
+  border: 2px solid rgb(244, 244, 244);
+  border-radius: 20px;
+  padding: 1em;
+  margin: 0.5em 1em;
+}
+
+.my-quote h2 {
+  font-size: 2.5em;
+}
+
+.my-quote p {
+  line-height: 1.5em;
+  font-style: italic;
+}
+/* End of the quote section */
+
+/* Styling the e-book section */
+.e-book {
+  text-align: center;
+  color: #404040;
+  border: 2px solid rgb(244, 244, 244);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 1em;
+  margin: 1em 1em 3em 1em;
+}
+
+.e-book img {
+  padding-bottom: 1em;
+}
+
+.e-book .book-details {
+  border: 2px solid rgb(244, 244, 244);
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.e-book p {
+  line-height: 1.5em;
+}
+/* End of the e-book section */
+
+/* Styling the footer section */
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #374a5e;
+  color: #fff;
+  padding: 2em 1em 3em 1em;
+}
+
+footer img {
+  margin-bottom: 2em;
+}
+
+footer small {
+  line-height: 2em;
+}
+
+footer small a {
+  color: #f15a24;
+}
+
+footer small a:hover {
+  color: #f1b024;
+}
