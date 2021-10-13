@@ -17,16 +17,16 @@ This is my new official website (I recreated it from my old WordPress website).
 
 
 ## Overview
-I had initially created my personal website on WordPress using Elementor because for many years I have been a graphic designer (Illustrator and Photoshop expert) and a web & UI/UX designer (WordPress, Elementor, Figma, Divi expert) with no coding skills.
+I had initially created my personal website on WordPress using Elementor (A drag and drop page builder) because for many years I have been a graphic designer (Illustrator and Photoshop expert) and a web & UI/UX designer (WordPress, Elementor, Figma, Divi expert) with no coding skills.
 
-When I was accepted to [Google Africa Developer Scholarship (GADS 2021)] and started learning HTML, CSS and JavaScript, I wanted to practice the concepts I'm learning by recreating a replica of my WordPress website.
+When I was accepted to [Google Africa Developer Scholarship (GADS 2021)] and started learning HTML, CSS and JavaScript, I wanted oneof the projects I chose to do for practice was to recreat a replica of the WordPress website by coding it.
 
 After years of using drag-and-drop builders on WordPress, I can say learning HTML, CSS and Javascript has really opened up my eyes to opportunities that i neer knew existed before.
 
 
 ### The challenge
-- Recreate my WordPress website by coding it in HTML, CSS and JavaScript.
-- After creating it, I wanted to make it my official website by hosting it on GitHub. That means I will no longer continue working on the WordPress version of the website. This website is now where to find me.
+- Recreate my visually-built WordPress website by coding it in HTML, CSS and JavaScript.
+<!-- - After creating it, I wanted to make it my official website by hosting it on GitHub. That means I will no longer continue working on the WordPress version of the website. This website is now where to find me. -->
 
 
 <!-- ### Screenshot
@@ -61,7 +61,9 @@ By using a mobile-first worlflow, I was able to keep the css lean and clean from
 
 When I first started practicing HTML, CSS by watching YouTube tuts, I was using a desktop-first approach, which meant more work in styiling it for other devices. 
 
-Because I wanted the website to work well on mobile, I had to make the mobile menu look and wokr properly as well. Below's the JS code snippet I used to achieve the toggle effect:
+Because I wanted the website to work well on mobile, I had to make the mobile menu look and work properly as well.
+
+Below's the JS code snippet I used to achieve the toggle effect:
 
 ```JavaScript
 function toggleMobileMenu() {
@@ -84,11 +86,11 @@ Plurasight courses are really helping me understand how to develop websites and 
 
 
 ## Author
-- Website - [Ken Mbesa](https://www.kenmbesa.co.ke)
+- Website - [www.kenmbesa.co.ke](https://www.kenmbesa.co.ke)
 - Twitter - [@kenmbesa](https://www.twitter.com/kenmbesa)
 
 
 ## Acknowledgments
 Many thanks to Andela, Pluralsight and Google for putting together the GADS program. 
 
-I would recommend you visit [https://www.pluralsight.com], if you want to learn how to code in HTML, CSS and JavaScript.
+I would recommend you visit [Pluralsight](https://www.pluralsight.com), if you want to learn how to code in HTML, CSS and JavaScript.
