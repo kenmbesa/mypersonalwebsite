@@ -77,11 +77,13 @@ function toggleMobileMenu() {
 ```
 
 ### Continued development
-I would like to continue learning adding more pages and features to the website as I learn new concepts in HTML, CSS and JS. One of the feature I'd like to add is a sign-up form that saves user data to a database.
+I would like to continue adding more pages and features to the website as I learn new concepts in HTML, CSS and JS. One of the features I'd like to add soon is a sign-up form that saves user data to a database.
 
 
 ### Useful resources
-- [Pluralsight Courses](https://www.pluralsight.com) - 
+- [Pluralsight Courses](https://www.pluralsight.com) 
+Plurasight courses are really helping me understand how to develop websites and web applications. By the time we finish the GADS program in DEC 2021, I want to have become a top-notch Mobile Web Specialist.
+- [Brad Traversy's YouTube Channel](https://www.youtube.com/c/TraversyMedia) 
 Plurasight courses are really helping me understand how to develop websites and web applications. By the time we finish the GADS program in DEC 2021, I want to have become a top-notch Mobile Web Specialist.
 
 
