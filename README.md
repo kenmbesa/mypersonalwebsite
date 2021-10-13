@@ -91,6 +91,5 @@ Plurasight courses are really helping me understand how to develop websites and 
 
 
 ## Acknowledgments
-Many thanks to Andela, Pluralsight and Google for putting together the GADS program. 
+Many thanks to [Andela](https://www.andela.com), [Pluralsight](https://www.pluralsight.com) and Google for putting together the GADS program. 
 
-I would recommend you visit [Pluralsight](https://www.pluralsight.com), if you want to learn how to code in HTML, CSS and JavaScript.
