@@ -84,7 +84,7 @@ I would like to continue adding more pages and features to the website as I lear
 - [Pluralsight Courses](https://www.pluralsight.com) 
 Plurasight courses are really helping me understand how to develop websites and web applications. By the time we finish the GADS program in DEC 2021, I want to have become a top-notch Mobile Web Specialist.
 - [Brad Traversy's YouTube Channel](https://www.youtube.com/c/TraversyMedia) 
-Brad can mae it easy for you to understand complex programming concepts with practical examples. I have found his YouTube channel crucial to my growth as a web developer.
+Brad has a special ability to break complex programming concepts into easy-to-understand beginner-friendly tutorials. His YouTube channel has been a crucial resource in my journey as a web developer.
 
 
 ## Author
