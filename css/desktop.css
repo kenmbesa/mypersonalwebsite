@@ -1,65 +1,93 @@
-@media screen {
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
+@media only screen and (min-width: 768px) {
+  header {
+    background-color: #2effdd;
+    display: flex;
+    justify-content: space-between;
+  }
 
-    #mobileMenu {
-        display: block;
-        background: red;
-    }
+  .mobile-top-bar {
+    width: 40%;
+    height: 20%;
+  }
 
-    .service-item {
-        display: flex;
-        text-align: left;
-    }
+  nav #mobileMenu {
+    display: flex;
+  }
 
-    .why-me {
-        display: flex;
-        flex-direction: column;
-    }
+  nav .desktop-menu {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2em;
+  }
 
-    .all-reasons {
-        display: flex;
-    }
+  nav ul li {
+    padding: .5em 1em;
+    border-radius: 5px;
+  }
 
-    .reason {
-        margin: 1em .5em;
+  nav ul li button {
+    background: #f15a24;
+    border: none;
+    border-radius: 20px;
+    padding: 0.8em 2em;
+    color: white;
+    margin-top: 1em;
+  }
 
-    }
+  .toggleMobileMenu {
+    display: none;
+  }
 
-    .all-clients {
-        display: flex;
-    }
+  .service-item {
+    display: flex;
+    text-align: left;
+  }
 
-    .client {
-        margin: 0 .5em;
-    }
+  .why-me {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .my-quote {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 1.5em;
-    }
+  .all-reasons {
+    display: flex;
+  }
 
-    .e-book {
-        display: flex;
-        text-align: left;
-    }
+  .reason {
+    margin: 1em 0.5em;
+  }
 
-    footer {
-        display: flex;
-        justify-content: space-between;
-    }
+  .all-clients {
+    display: flex;
+  }
 
-    footer img {
-        width: 40%;
-    }
+  .client {
+    margin: 0 0.5em;
+  }
 
-    footer small {
-        width: 50%;
-        text-align: right;
-        margin-top: 3em;
-    }
+  .my-quote {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+  }
+
+  .e-book {
+    display: flex;
+    text-align: left;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer img {
+    width: 40%;
+  }
+
+  footer small {
+    width: 50%;
+    text-align: right;
+    margin-top: 3em;
+  }
 }

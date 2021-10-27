@@ -15,6 +15,22 @@
   <header>
     <div class="mobile-top-bar">
       <img src="images/website-branding/ken mbesa website logo - black.png" alt="" />
+    </div>
+    <a class="toggleMobileMenu" onclick="toggleMobileMenu()">
+      <img src="images/burger-01.png" alt="" />
+    </a>
+    <nav>
+      <ul id="mobileMenu" class="desktop-menu">
+        <li><a href="#skills-anchor">Skills</a></li>
+        <li><a href="#testimonials-anchor">Testimonials</a></li>
+        <li><a href="#ebook-anchor">e-Book</a></li>
+        <button>My Projects</button>
+      </ul>
+    </nav>
+  </header>
+  
+    <!-- <div class="mobile-top-bar">
+      <img src="images/website-branding/ken mbesa website logo - black.png" alt="" />
 
       <a class="toggleMobileMenu" onclick="toggleMobileMenu()">
         <img src="images/burger-01.png" alt="" />
@@ -22,13 +38,13 @@
     </div>
 
     <nav>
-      <ul id="mobileMenu">
+      <ul id="mobileMenu" class="desktop-menu">
         <li><a href="#skills-anchor">Skills</a></li>
         <li><a href="#testimonials-anchor">Testimonials</a></li>
         <li><a href="#ebook-anchor">e-Book</a></li>
       </ul>
     </nav>
-  </header>
+  </header> -->
 
   <article>
     <!-- Top-Notch Web Designer -->
@@ -38,7 +54,7 @@
         I'd like to help you design and build sustainable web applications. My
         only question is, would you like that?
       </p>
-      <button>Build a web app</button>
+      <button onclick="changeText()" id="buttn">Build a web app</button>
     </section>
 
     <!-- Wondering What I Can do for You?​ -->

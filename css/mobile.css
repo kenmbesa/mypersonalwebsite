@@ -32,7 +32,7 @@ body {
   padding-bottom: 0.8em;
 }
 
-.mobile-top-bar a img {
+header a img {
   position: absolute;
   top: 0;
   right: 0;
